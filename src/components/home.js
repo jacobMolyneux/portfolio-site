@@ -10,13 +10,17 @@ export default class HomePage extends React.Component {
     return (
       <div id="homepageContainer">
         <div id="greetingDiv">
-          <h1>Hello welcome to my page!</h1>
+          <h1 id="greeting">
+            Hello World! <br />
+            Welcome to my Portfolio
+          </h1>
+          <div id="curvediv"></div>
         </div>
         <div id="aboutSection">
           <h1>About me</h1>
           <div id="aboutMeDetails">
             <div id="introduction">
-              <p>
+              <p id="introPara">
                 I am 22 years old and a self-taugh web-developer working towards
                 being a full stack developer. I graduated from Western
                 University with a double major in Economics and Political

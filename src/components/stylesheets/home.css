@@ -6,15 +6,28 @@
 .projectCard {
   margin: 30px;
 }
+#greetingDiv {
+  background: #48c0db;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#greeting {
+  font-family: arial;
+  font-weight: normal;
+}
 #aboutMeDetails {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 200px;
 }
 #introduction {
-  border-right: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   width: 500px;
+  background: white;
 }
 #techStack {
   display: flex;
@@ -23,4 +36,17 @@
 li {
   list-style: none;
   margin: 5px;
+}
+#curvediv {
+  position: absolute;
+  top: 500px;
+  width: 100px;
+  height: 100px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 200px solid #48c0db;
+  z-index: -1;
+}
+#introduction {
+  right: 40px;
 }
