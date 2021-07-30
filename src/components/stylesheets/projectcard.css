@@ -1,0 +1,18 @@
+.projectCardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid lightgreen;
+  border-radius: 2px;
+  box-shadow: 2px 2px lightgreen;
+  width: 300px;
+  height: 300px;
+}
+#seeMoreButton {
+  border: lightgreen 2px solid;
+  background: white;
+  height: 30px;
+  transition: background 2s;
+}
+#seeMoreButton:hover {
+  background: lightgreen;
+}

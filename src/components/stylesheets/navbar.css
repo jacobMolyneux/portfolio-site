@@ -1,0 +1,17 @@
+#container {
+  display: flex;
+  border: 1px solid black;
+}
+#navbarList {
+  display: flex;
+}
+#navItem {
+  display: inline;
+  margin: 20px;
+  font-size: 25px;
+  transition: font-size 1s, color 1s;
+}
+#navItem:hover {
+  font-size: 36px;
+  color: lightgreen;
+}
