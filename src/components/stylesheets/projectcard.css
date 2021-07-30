@@ -14,3 +14,7 @@
   transition: background 2s;
   border-radius: 20px;
 }
+.projectPhoto {
+  height: 100px;
+  width: 200px;
+}

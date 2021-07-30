@@ -3,7 +3,13 @@ import "./stylesheets/projectcard.css";
 const ProjectCard = (props) => {
   return (
     <div className="projectCardContainer">
-      <div id="imageHolder"></div>
+      <div id="imageHolder">
+        <img
+          src={props.image}
+          alt="projectPhoto"
+          className="projectPhoto"
+        ></img>
+      </div>
       <div id="detailsDiv">
         <div id="projectNameDiv">
           <h2>{props.projectName}</h2>

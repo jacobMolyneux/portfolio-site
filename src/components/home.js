@@ -1,15 +1,16 @@
 import React from "react";
 import { ProjectCard } from "./projectCard";
 import "./stylesheets/home.css";
-import "./images/languages/bootstrap-social-logo.png";
-import "./images/languages/CSSLogo.png";
-import "./images/languages/django-logo.png";
-import "./images/languages/HtmlLogo.png";
-import "./images/languages/JSLogo.png";
-import "./images/languages/nodelogo.png";
-import "./images/languages/pythonLogo.png";
-import "./images/languages/ReactLogo.png";
-import "./images/languages/RLogo.png";
+import bootstrapLogo from "./images/languages/bootstrap-social-logo.png";
+import cssLogo from "./images/languages/CSSLogo.png";
+import djangoLogo from "./images/languages/django-logo.png";
+import htmlLogo from "./images/languages/HtmlLogo.png";
+import jsLogo from "./images/languages/JSLogo.png";
+import nodeLogo from "./images/languages/nodelogo.png";
+import pythonLogo from "./images/languages/pythonLogo.png";
+import reactLogo from "./images/languages/ReactLogo.png";
+import rLogo from "./images/languages/RLogo.png";
+import weatherAppPhoto from "./images/projectImages/weatherApp.png";
 
 export default class HomePage extends React.Component {
   constructor() {
@@ -49,7 +50,7 @@ export default class HomePage extends React.Component {
                   <div>
                     <img
                       className="ListImage"
-                      src="./images/languages/JSLogo.png"
+                      src={jsLogo}
                       alt="javascript Logo"
                     />
                     Javascript
@@ -58,8 +59,8 @@ export default class HomePage extends React.Component {
                 <li>
                   <div>
                     <img
-                      className="listImage"
-                      src="./images/languages/pythonLogo.png"
+                      className="ListImage"
+                      src={pythonLogo}
                       alt="Python Logo"
                     />
                     Python
@@ -69,7 +70,7 @@ export default class HomePage extends React.Component {
                   <div>
                     <img
                       className="ListImage"
-                      src="./images/languages/bootstrap-social-logo.png"
+                      src={bootstrapLogo}
                       alt="Bootstrap Logo"
                     />
                     Bootstrap
@@ -79,7 +80,7 @@ export default class HomePage extends React.Component {
                   <div>
                     <img
                       className="ListImage"
-                      src="./images/languages/ReactLogo.png"
+                      src={reactLogo}
                       alt="React Logo"
                     />
                     React
@@ -89,7 +90,7 @@ export default class HomePage extends React.Component {
                   <div>
                     <img
                       className="ListImage"
-                      src="./images/languages/nodelogo.png"
+                      src={nodeLogo}
                       alt="Node.js Logo"
                     />
                     Node.js
@@ -99,7 +100,7 @@ export default class HomePage extends React.Component {
                   <div>
                     <img
                       className="ListImage"
-                      src="./images/languages/django-logo.png"
+                      src={djangoLogo}
                       alt="Django Logo"
                     />
                     Django
@@ -107,12 +108,7 @@ export default class HomePage extends React.Component {
                 </li>
                 <li>
                   <div>
-                    <img
-                      className="ListImage"
-                      src="./images/languages/RLogo.png"
-                      alt="R Logo"
-                    />
-                    R
+                    <img className="ListImage" src={rLogo} alt="R Logo" />R
                   </div>
                 </li>
               </ul>
@@ -133,7 +129,8 @@ export default class HomePage extends React.Component {
           <ProjectCard
             className="projectCard"
             projectName="Weather App"
-            decription="A weather app that shows you the current weather and a three day forecast made with data from an API. I made this with vanilla JS and CSS"
+            image={weatherAppPhoto}
+            description="A weather app that shows you the current weather and a three day forecast made with data from an API. I made this with vanilla JS and CSS"
           />
         </div>
       </div>
