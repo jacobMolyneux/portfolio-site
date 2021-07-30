@@ -10,15 +10,15 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <nav>
-            <ul>
-              <li>
+          <nav id="navContainer">
+            <ul id="listContainer">
+              <li className="navLink">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="navLink">
                 <Link to="/resume">Resume</Link>
               </li>
-              <li>
+              <li className="navLink">
                 <Link to="/projects">Users</Link>
               </li>
             </ul>

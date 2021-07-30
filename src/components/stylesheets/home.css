@@ -2,20 +2,38 @@
   display: flex;
   margin: 10px;
   justify-content: space-evenly;
+  background: #292929;
+  height: 400px;
+  padding: 20px;
 }
 .projectCard {
   margin: 30px;
 }
 #greetingDiv {
-  background: #48c0db;
-  height: 500px;
+  background: #292929;
+  height: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 #greeting {
-  font-family: arial;
+  font-family: Roboto;
   font-weight: normal;
+  color: white;
+  font-size: 48px;
+}
+#learnMoreButton {
+  background: linear-gradient(90deg, #3152ff 17.5%, #bb4a31 85.21%);
+  border-radius: 45px;
+  border: transparent;
+  height: 50px;
+  width: 150px;
+  color: white;
+}
+
+#aboutSection {
+  height: 500px;
 }
 #aboutMeDetails {
   display: flex;
@@ -49,4 +67,12 @@ li {
 }
 #introduction {
   right: 40px;
+}
+#introPara {
+  font-size: 20px;
+  text-align: left;
+}
+.ListImage {
+  width: 20px;
+  height: 20px;
 }
