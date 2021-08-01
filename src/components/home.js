@@ -11,6 +11,8 @@ import pythonLogo from "./images/languages/pythonLogo.png";
 import reactLogo from "./images/languages/ReactLogo.png";
 import rLogo from "./images/languages/RLogo.png";
 import weatherAppPhoto from "./images/projectImages/weatherApp.png";
+import PomadoroAppPhoto from "./images/projectImages/PomadoroApp.png";
+import twitterClonePhoto from "./images/projectImages/TwitterClone.png";
 
 export default class HomePage extends React.Component {
   constructor() {
@@ -40,6 +42,18 @@ export default class HomePage extends React.Component {
                 <br />I enjoy learning and building new things and programming
                 has allowed me to do that. Here you can take a look at some of
                 the things that I've built and projects I'm proud of.
+              </p>
+              <br></br>
+              <h1>Contact Me</h1>
+              <p id="introPara">
+                Email: Jacobmolyneux2@gmail.com
+                <br />{" "}
+                <a href="https://github.com/jacobMolyneux">
+                  {" "}
+                  Github: https://github.com/jacobMolyneux
+                </a>
+                <br />
+                Phone Number: 647-298-6455
               </p>
             </div>
 
@@ -118,13 +132,15 @@ export default class HomePage extends React.Component {
         <div id="contentsDiv">
           <ProjectCard
             className="projectCard"
+            image={twitterClonePhoto}
             projectName="Twitter Clone"
             description="this is a replication of twitter made with React, CSS and hosted on firebase"
           />
           <ProjectCard
             className="projectCard"
-            projectName="TicTacToe"
-            description="A TicTacToe application made with vanilla Js"
+            projectName="Pomadoro App"
+            image={PomadoroAppPhoto}
+            description="A Pomadoro Study app that allows you study with a timer and also has a to do list built into it."
           />
           <ProjectCard
             className="projectCard"

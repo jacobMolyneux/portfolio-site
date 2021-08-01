@@ -24,7 +24,7 @@
   font-size: 48px;
 }
 #learnMoreButton {
-  background: linear-gradient(90deg, #3152ff 17.5%, #bb4a31 85.21%);
+  background: #3152ff;
   border-radius: 45px;
   border: transparent;
   height: 50px;

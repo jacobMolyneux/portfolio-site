@@ -25,7 +25,7 @@ function App() {
               </li>
               <li className="navLink">
                 <Link to="/projects" className="linktext">
-                  Users
+                  Projects
                 </Link>
               </li>
             </ul>

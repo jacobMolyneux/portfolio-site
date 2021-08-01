@@ -9,10 +9,11 @@
 }
 #seeMoreButton {
   border: transparent;
-  background: linear-gradient(90deg, #3152ff 17.5%, #bb4a31 85.21%);
+  background: #3152ff;
   height: 30px;
   transition: background 2s;
   border-radius: 20px;
+  color: white;
 }
 .projectPhoto {
   height: 100px;
