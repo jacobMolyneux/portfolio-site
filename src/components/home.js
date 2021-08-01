@@ -46,7 +46,7 @@ export default class HomePage extends React.Component {
             <div id="techStack">
               <h2>Technologies I Know</h2>
               <ul id="techStackList">
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -56,7 +56,7 @@ export default class HomePage extends React.Component {
                     Javascript
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -66,7 +66,7 @@ export default class HomePage extends React.Component {
                     Python
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -76,7 +76,7 @@ export default class HomePage extends React.Component {
                     Bootstrap
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -86,7 +86,7 @@ export default class HomePage extends React.Component {
                     React
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -96,7 +96,7 @@ export default class HomePage extends React.Component {
                     Node.js
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img
                       className="ListImage"
@@ -106,7 +106,7 @@ export default class HomePage extends React.Component {
                     Django
                   </div>
                 </li>
-                <li>
+                <li className="teckList">
                   <div>
                     <img className="ListImage" src={rLogo} alt="R Logo" />R
                   </div>

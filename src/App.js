@@ -13,13 +13,20 @@ function App() {
           <nav id="navContainer">
             <ul id="listContainer">
               <li className="navLink">
-                <Link to="/">Home</Link>
+                <Link to="/" className="linktext">
+                  Home
+                </Link>
               </li>
               <li className="navLink">
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume" className="linktext">
+                  {" "}
+                  Resume
+                </Link>
               </li>
               <li className="navLink">
-                <Link to="/projects">Users</Link>
+                <Link to="/projects" className="linktext">
+                  Users
+                </Link>
               </li>
             </ul>
           </nav>

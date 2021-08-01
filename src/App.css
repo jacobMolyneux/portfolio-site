@@ -20,9 +20,16 @@
 #listContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .navLink {
   font-size: 24px;
   padding: 5px;
+  display: inline;
+  color: black;
+  font-style: normal;
+}
+.linktext {
+  color: black;
+  font-style: normal;
 }
