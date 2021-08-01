@@ -1,37 +1,38 @@
 {
-    "weatherApp":{
+"projects":[
+    {
         "name":"Weather App",
         "image":"",
         "description": "A weather app that i made which uses a public api from openweathermap.com. Displays the current weather and a 3 day forecast. Made with vanilla JS and CSS",
         "link": "",
         "Tech": ["Javascript", "CSS"]
     },
-    "TicTacToe":{
+    {
         "name": "Tic-Tac-Toe",
         "image": "",
         "description": "A two player game of Tic Tac Toe. Made with JavaScript and Css",
         "link": "",
         "Tech": ["Javascript", "CSS"]
     },
-    "TwitterClone":{
+    {
         "name": "Twitter Clone",
         "image": "",
         "description": "This is a clone of twitter where users can create tweets. The app uses Firebase as a back end and has user authentication built into it so users can create and account. I made this with React for the frontend and used firebase for the backend.",
         "link": "",
         "Tech": ["React", "Javascript", "CSS"]
     },
-    "Cryptosite":{
+    {
         "name": "Crypto Site",
         "image": "",
         "description": "This website fetches the marketprices of different cryptocurrencies on the different exchanges. This site uses a large amount of different Apis to fetch the correct data. Made with React and Bootstrap",
         "link": "",
         "Tech": ["React", "Javascript", "Bootstap"]
     },
-    "To Do List":{
+    {
         "name": "Pomadoro App",
         "image": "",
         "description":"I made this app to help me study. It works as both a To Do list and a pomadoro app.",
         "Tech": ["React", "Javascript", "Bootstap"]
     }
-    
-}
+  
+]}
