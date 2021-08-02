@@ -7,16 +7,31 @@
   background: white;
   margin: 20px;
   border: 2px solid #3152ff;
+  align-items: center;
+  justify-content: center;
+}
+
+#gihubLink {
+  color: white;
+  align-items: center;
+}
+.projectPhoto {
+  height: 100px;
+  width: 200px;
+}
+#detailsDiv {
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+
+  left: 10px;
 }
 #seeMoreButton {
   border: transparent;
   background: #3152ff;
   height: 30px;
-  transition: background 2s;
   border-radius: 20px;
   color: white;
-}
-.projectPhoto {
-  height: 100px;
-  width: 200px;
+  width: 150px;
+  text-align: center;
 }

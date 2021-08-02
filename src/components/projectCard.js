@@ -17,7 +17,11 @@ const ProjectCard = (props) => {
         <div id="descriptionDiv">
           <p>{props.description}</p>
         </div>
-        <button id="seeMoreButton">See More</button>
+        <div id="seeMoreButton">
+          <a id="githubLink" href={props.link}>
+            See More{" "}
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -1,8 +1,10 @@
 import myResume from "./JacobMolyneuxResume.pdf";
+import "./stylesheets/resume.css";
+
 const Resume = () => {
   return (
-    <div height="100vh">
-      <iframe src={myResume} width="100%" heigth="100vh" />
+    <div id="container">
+      <iframe id="resumeFrame" src={myResume} />
     </div>
   );
 };

@@ -26,7 +26,9 @@ export default class HomePage extends React.Component {
             Hello World! <br />
             Welcome to my Portfolio
           </h1>
-          <button id="learnMoreButton">Learn More</button>
+          <a href="https://github.com/jacobMolyneux">
+            <button id="learnMoreButton">My GitHub</button>
+          </a>
         </div>
 
         <div id="aboutSection">
@@ -49,7 +51,6 @@ export default class HomePage extends React.Component {
                 Email: Jacobmolyneux2@gmail.com
                 <br />{" "}
                 <a href="https://github.com/jacobMolyneux">
-                  {" "}
                   Github: https://github.com/jacobMolyneux
                 </a>
                 <br />
