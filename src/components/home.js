@@ -11,7 +11,7 @@ import pythonLogo from "./images/languages/pythonLogo.png";
 import reactLogo from "./images/languages/ReactLogo.png";
 import rLogo from "./images/languages/RLogo.png";
 import weatherAppPhoto from "./images/projectImages/weatherApp.png";
-import PomadoroAppPhoto from "./images/projectImages/PomadoroApp.png";
+import cryptoTracker from "./images/projectImages/cryptotracker.png";
 import twitterClonePhoto from "./images/projectImages/TwitterClone.png";
 
 export default class HomePage extends React.Component {
@@ -139,14 +139,16 @@ export default class HomePage extends React.Component {
           />
           <ProjectCard
             className="projectCard"
-            projectName="Pomadoro App"
-            image={PomadoroAppPhoto}
-            description="A Pomadoro Study app that allows you study with a timer and also has a to do list built into it."
+            projectName="Crypto Tracker"
+            image={cryptoTracker}
+            link="jacobmolyneux.github.io/cryptosite/index"
+            description="A web app that allows you to see crypto currency prices, and historical prices. Visualizes historical prices and uses the AphaVantage Api. Made with React and graph.js"
           />
           <ProjectCard
             className="projectCard"
             projectName="Weather App"
             image={weatherAppPhoto}
+            link="https://hardcore-curran-9c5bc2.netlify.app"
             description="A weather app that shows you the current weather and a three day forecast made with data from an API. I made this with vanilla JS and CSS"
           />
         </div>

@@ -4,6 +4,7 @@ import weatherAppPhoto from "./images/projectImages/weatherApp.png";
 import PomadoroAppPhoto from "./images/projectImages/PomadoroApp.png";
 import twitterClonePhoto from "./images/projectImages/TwitterClone.png";
 import ticTacToePhoto from "./images/projectImages/tictactoe.png";
+import cryptoTracker from "./images/projectImages/cryptotracker.png";
 import "./stylesheets/projectspage.css";
 
 const ProjectsPage = () => {
@@ -42,8 +43,9 @@ const ProjectsPage = () => {
         <ProjectCard
           className="projectCard"
           projectName="Crypto Store"
-          image=""
-          description="This is an example of a store where it searches different crypto currenct sites for the prices of coins and allows users find the best possible price. I made this with React and CSS"
+          image={cryptoTracker}
+          link="jacobmolyneux.github.io/cryptosite/index"
+          description="This is an example of a store where it searches different crypto currenct sites for the prices of coins and allows users find the best possible price. I made this with React, Graph.js and CSS"
         />
       </div>
     </div>
