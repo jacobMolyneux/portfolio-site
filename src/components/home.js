@@ -23,7 +23,7 @@ export default class HomePage extends React.Component {
       <div id="homepageContainer">
         <div id="greetingDiv">
           <h1 id="greeting">
-            Hello World! <br />
+            Hello World! My name is Jacob <br />
             Welcome to my Portfolio
           </h1>
           <a href="https://github.com/jacobMolyneux">
@@ -61,8 +61,8 @@ export default class HomePage extends React.Component {
             <div id="techStack">
               <h2>Technologies I Know</h2>
               <ul id="techStackList">
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={jsLogo}
@@ -71,8 +71,8 @@ export default class HomePage extends React.Component {
                     Javascript
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={pythonLogo}
@@ -81,8 +81,8 @@ export default class HomePage extends React.Component {
                     Python
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={bootstrapLogo}
@@ -91,8 +91,8 @@ export default class HomePage extends React.Component {
                     Bootstrap
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={reactLogo}
@@ -101,8 +101,8 @@ export default class HomePage extends React.Component {
                     React
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={nodeLogo}
@@ -111,8 +111,8 @@ export default class HomePage extends React.Component {
                     Node.js
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img
                       className="ListImage"
                       src={djangoLogo}
@@ -121,8 +121,8 @@ export default class HomePage extends React.Component {
                     Django
                   </div>
                 </li>
-                <li className="teckList">
-                  <div>
+                <li className="techList">
+                  <div className="listItemDiv">
                     <img className="ListImage" src={rLogo} alt="R Logo" />R
                   </div>
                 </li>
@@ -141,14 +141,14 @@ export default class HomePage extends React.Component {
             className="projectCard"
             projectName="Crypto Tracker"
             image={cryptoTracker}
-            link="jacobmolyneux.github.io/cryptosite/index"
+            link="https://jacobmolyneux.github.io/cryptosite/dist/index"
             description="A web app that allows you to see crypto currency prices, and historical prices. Visualizes historical prices and uses the AphaVantage Api. Made with React and graph.js"
           />
           <ProjectCard
             className="projectCard"
             projectName="Weather App"
             image={weatherAppPhoto}
-            link="https://hardcore-curran-9c5bc2.netlify.app"
+            link="https://jacobmolyneux.github.io/WeatherApp/dist/index"
             description="A weather app that shows you the current weather and a three day forecast made with data from an API. I made this with vanilla JS and CSS"
           />
         </div>

@@ -6,10 +6,8 @@
   height: 350px;
   background: white;
   margin: 20px;
-  border: 2px solid #3152ff;
-  align-items: center;
+  border: 2px solid rgb(148, 55, 177);
   justify-content: center;
-  text-align: center;
 }
 
 #gihubLink {
@@ -24,12 +22,11 @@
   justify-content: left;
   align-items: left;
   text-align: left;
-
   left: 10px;
 }
 #seeMoreButton {
   border: transparent;
-  background: #3152ff;
+  background: rgb(148, 55, 177);
   height: 30px;
   border-radius: 20px;
   color: white;

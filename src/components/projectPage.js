@@ -44,7 +44,7 @@ const ProjectsPage = () => {
           className="projectCard"
           projectName="Crypto Store"
           image={cryptoTracker}
-          link="jacobmolyneux.github.io/cryptosite/index"
+          link="https://jacobmolyneux.github.io/cryptosite/index"
           description="This is an example of a store where it searches different crypto currenct sites for the prices of coins and allows users find the best possible price. I made this with React, Graph.js and CSS"
         />
       </div>

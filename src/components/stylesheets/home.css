@@ -10,7 +10,7 @@
   margin: 30px;
 }
 #greetingDiv {
-  background: #000000;
+  background: #ffffff;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -18,13 +18,14 @@
   align-items: center;
 }
 #greeting {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-weight: normal;
-  color: white;
+
   font-size: 48px;
+  text-align: left;
 }
 #learnMoreButton {
-  background: #3152ff;
+  background: rgb(148, 55, 177);
   border-radius: 45px;
   border: transparent;
   height: 50px;
@@ -34,7 +35,8 @@
 }
 #learnMoreButton:hover {
   background: white;
-  color: #3152ff;
+  color: rgb(148, 55, 177);
+  border: 2px solid rgb(148, 55, 177);
 }
 
 #aboutSection {
@@ -56,10 +58,11 @@
   display: flex;
   flex-direction: column;
 }
-.teckList {
+.techList {
   text-align: left;
   list-style: none;
   margin: 10px;
+  padding: 3px;
 }
 #curvediv {
   position: absolute;
@@ -81,4 +84,11 @@
 .ListImage {
   width: 20px;
   height: 20px;
+  padding: 3px;
+}
+.listItemDiv {
+  display: flex;
+  height: 30px;
+  width: 150px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(148, 147, 147);
 }
