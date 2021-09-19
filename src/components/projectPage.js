@@ -15,7 +15,7 @@ const ProjectsPage = () => {
         <ProjectCard
           className="projectCard"
           image={twitterClonePhoto}
-          projectName="Twitter Clone"
+          projectName="Twitter Clone (In Progress) "
           link="https://github.com/jacobMolyneux/twitterClone"
           description="this is a replication of twitter made with React, CSS and hosted on firebase"
         />

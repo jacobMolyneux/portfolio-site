@@ -134,8 +134,8 @@ export default class HomePage extends React.Component {
           <ProjectCard
             className="projectCard"
             image={twitterClonePhoto}
-            projectName="Twitter Clone"
-            description="this is a replication of twitter made with React, CSS and hosted on firebase"
+            projectName="Twitter Clone (In Progress)"
+            description="this is a replication of Twitter made with React, CSS and hosted on firebase"
           />
           <ProjectCard
             className="projectCard"
