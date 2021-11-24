@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
   let [flipped, setFlipped] = useState(false);
   if (flipped === false) {
     return (
-      <Card className="m-3 p-1" style={{ width: "20rem" }}>
+      <Card className="m-3 p-1" style={{ width: "20rem" }} id="projectCard">
         <Card.Img src={props.image}></Card.Img>
         <Card.Title>{props.projectName}</Card.Title>
         <Card.Text>{props.description}</Card.Text>

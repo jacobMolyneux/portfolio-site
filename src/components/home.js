@@ -19,11 +19,14 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import bannerOne from "./images/banner_image_one.jpg";
+import bannerTwo from "./images/banner_two.jpg";
 
 const HomePage = () => {
   return (
     <Container>
-      <Row className="d-flex-column justify-content-center">
+      <Row className="postion-fixed">
+        <Image src={bannerTwo} />
         <h1 id="greeting">
           Hello World! My name is Jacob <br />
           Welcome to my Portfolio
