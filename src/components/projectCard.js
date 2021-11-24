@@ -1,29 +1,30 @@
 import React from "react";
-import "./stylesheets/projectcard.css";
+
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import { useState } from "react";
 const ProjectCard = (props) => {
-  return (
-    <div className="projectCardContainer">
-      <div id="imageHolder">
-        <img
-          src={props.image}
-          alt="projectPhoto"
-          className="projectPhoto"
-        ></img>
-      </div>
-      <div id="detailsDiv">
-        <div id="projectNameDiv">
-          <h2>{props.projectName}</h2>
-        </div>
-        <div id="descriptionDiv">
-          <p>{props.description}</p>
-        </div>
-        <div id="seeMoreButton">
-          <a id="githubLink" href={props.link}>
-            See More{" "}
-          </a>
-        </div>
-      </div>
-    </div>
-  );
+  let [flipped, setFlipped] = useState(false);
+  if (flipped === false) {
+    return (
+      <Card className="m-3 p-1" style={{ width: "20rem" }}>
+        <Card.Img src={props.image}></Card.Img>
+        <Card.Title>{props.projectName}</Card.Title>
+        <Card.Text>{props.description}</Card.Text>
+        <Button onClick={() => setFlipped((flipped = true))}>See More</Button>
+      </Card>
+    );
+  } else if (flipped === true) {
+    return (
+      <Card
+        className="m-3 p-1 d-flex-column justify-content-around"
+        style={{ width: "20rem" }}
+      >
+        <Button>Live Link</Button>
+        <Button>Github</Button>
+        <Button onClick={() => setFlipped((flipped = false))}>Back</Button>
+      </Card>
+    );
+  }
 };
 export { ProjectCard };
