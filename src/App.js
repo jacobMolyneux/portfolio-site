@@ -1,53 +1,32 @@
 import "./App.css";
 import { Navbar } from "./components/navbar";
 import { HomePage } from "./components/home";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {Routes, Route} from 'react-router-dom'
 import { ProjectsPage } from "./components/projectPage";
 import { Resume } from "./components/resumePage.js";
+import Nav from 'react-bootstrap/Nav'
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <div>
-          <nav id="navContainer">
-            <ul id="listContainer">
-              <li className="navLink">
-                <Link to="/" className="linktext">
-                  Home
-                </Link>
-              </li>
-              <li className="navLink">
-                <Link to="/resume" className="linktext">
-                  {" "}
-                  Resume
-                </Link>
-              </li>
-              <li className="navLink">
-                <Link to="/projects" className="linktext">
-                  Projects
-                </Link>
-              </li>
-            </ul>
-          </nav>
-
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/projects">
-              <ProjectsPage />
-            </Route>
-            <Route path="/resume">
-              <Resume />
-            </Route>
-            <Route path="/">
-              <HomePage />
-            </Route>
-          </Switch>
+    <div className="bg-dark">
+      
+        <Nav>
+          <Nav.Item>
+            <Nav.Link href = '/'>Home</Nav.Link>
+          </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href ='/resume'>Resume</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href = '/projects'>Projects</Nav.Link>
+            </Nav.Item>
+        </Nav>
+        <Routes>
+          <Route path = '/' element = {<HomePage/>}/>
+          <Route path = '/resume' element = {<Resume/>}/>
+          <Route path = '/projects' element = {<ProjectsPage/>}/>
+        </Routes>
         </div>
-      </Router>
-    </div>
-  );
-}
+)}
 
 export default App;
